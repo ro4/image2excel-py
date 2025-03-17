@@ -30,6 +30,18 @@ python image2excel.py <输入图片> <输出Excel文件>
 python image2excel.py input.png output.xlsx
 ```
 
+### 图形界面使用方法
+
+1. 启动图形界面：
+```bash
+python gui.py
+```
+2. 通过文件浏览器选择输入图片
+3. 选择输出的Excel文件路径
+4. 点击"转换"按钮生成表格文件
+
+
+
 ### 参数
 - `输入图片`: 输入图片文件路径
 - `输出Excel文件`: 输出Excel文件路径

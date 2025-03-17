@@ -37,6 +37,17 @@ python image2excel.py input.png output.xlsx
 - `input_image`: Path to the input image file
 - `output_excel`: Path for the output Excel file
 
+### GUI Usage
+
+1. Start the graphical interface:
+```bash
+python gui.py
+```
+2. Select input image file using the file browser
+3. Choose output Excel file path
+4. Click "Convert" button to generate spreadsheet
+
+
 ## Notes
 
 - Large images may take longer to process
