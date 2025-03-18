@@ -8,7 +8,7 @@ Python tool to convert images to Excel spreadsheets with cell coloring
 - Adjusts cell dimensions to create square cells
 - Supports various image formats (JPEG, PNG, etc.)
 
-**[中文文档](README_zh.md)**
+[中文文档](README_zh.md)
 
 ## Requirements
 - Python 3.6+
@@ -20,35 +20,28 @@ Python tool to convert images to Excel spreadsheets with cell coloring
 pip install -r requirements.txt
 ```
 
-## Usage
+## Usage / 使用方法
 
 ```bash
 python image2excel.py <input_image> <output_excel>
 ```
 
-### Example
+### Example / 示例：
 
 ```bash
 python image2excel.py input.png output.xlsx
 ```
 
-### Parameters
+### Parameters / 参数：
 
-- `input_image`: Path to the input image file
-- `output_excel`: Path for the output Excel file
+- `input_image`: Path to the input image file / 输入图片文件的路径
+- `output_excel`: Path for the output Excel file / 输出Excel文件的路径
 
-### GUI Usage
+## Notes / 注意事项
 
-1. Start the graphical interface:
-```bash
-python gui.py
-```
-2. Select input image file using the file browser
-3. Choose output Excel file path
-4. Click "Convert" button to generate spreadsheet
-
-
-## Notes
+- 大尺寸图片可能需要较长处理时间
+- 生成的Excel文件可能比原始图片大很多
+- 建议使用较小尺寸的图片以获得更好的性能
 
 - Large images may take longer to process
 - Generated Excel files might be much larger than the original image
